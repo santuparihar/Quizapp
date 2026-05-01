@@ -1,0 +1,47 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing :border-box;
+}
+body{
+    height : 100vh;
+    width : 100vw;
+    background-color: aquamarine;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    height : 42vh;
+    width : 30;
+    background-color: rgba(245, 245, 220, 0.859);
+    border-radius : 10px;
+    box-shadow: 2px 2px 5px green;
+    font-family: futura;
+    font-size: 20px;
+}
+.main h2{
+    margin-top : 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.row{
+    width : 100%;
+   margin-top: 2.3rem;
+   padding-left: 1rem;
+   padding-bottom: 5px;
+   border-bottom: 1px solid black;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#sub{
+    font-size: 28px;
+    font-family: gilroy;
+    padding : 8px 198px;
+    border-radius : 9px;
+    background-color: blueviolet;
+    color: white;
+     margin : 9px 50px;
+}
+.main input{
+    cursor : pointer;
+    transition: all 0.2s linear 0.2s;
+}
